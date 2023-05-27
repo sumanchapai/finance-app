@@ -1,6 +1,7 @@
 # Planning
 
-Components
+Components:
+
     - Users
     - Sets
     - Spendings
