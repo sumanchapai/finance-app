@@ -10,11 +10,11 @@ Components:
 
 ## Users
     Permissions
-    - Admin(togglable)
+    - Admin(toggle-able)
 
 1. System starts with an admin user.
 1. With the consensus of all admin, new users can be added.
-1. With the consensus of all admin, the admin perssion of a user can be toggled.
+1. With the consensus of all admin, the admin permission of a user can be toggled.
 
 ## Sets
 1. Any user can form a non-existing set. A set is a collection of users.
