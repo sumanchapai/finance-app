@@ -1,5 +1,3 @@
-# Planning
-
 Components:
 
     - Users
