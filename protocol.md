@@ -22,7 +22,7 @@ Components:
 ## Spendings
 1. User can create a spending for a set on a particular date for a particular
     event. The status of a spending is unapproved by default. The status changes to
-    approved when number of approval for the spending = | S | - 1. A user cannot
+    approved when number of approvals for the spending = | S | - 1. A user cannot
     approve their own spending. 
 1. Spending object has a certain amount (required), and bill report (required)
     associated to it. 
