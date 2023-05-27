@@ -20,14 +20,14 @@ Components:
 1. Any user can form a non-existing set. A set is a collection of users.
 
 ## Spendings
-1. User can create a spending for a set on a particular date. The status of a
-    spending is unapproved by default. The status chagnes to approved when number
-    of approval for the spending = | S | - 1. A user cannot approve their own
-    spending. 
+1. User can create a spending for a set on a particular date for a particular
+    event. The status of a spending is unapproved by default. The status changes to
+    approved when number of approval for the spending = | S | - 1. A user cannot
+    approve their own spending. 
 1. Spending object has a certain amount (required), and bill report (required)
     associated to it. 
 1. The author of a spending i.e. the expender can edit the spending. Once an
-    edit is created, approval status associated to all users falls to UNAPPROVED
+    edit is created, approval status associated to all users falls to `UNAPPROVED`
     meaning edit has to be approved by everyone in the group. Until an edit is
     approved, balances are based on last approved value. Newly created spendings
     don't show up in Balanced until approved by everyone in the Set.
