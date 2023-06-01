@@ -22,7 +22,7 @@ Components:
     event. The status of a spending is unapproved by default. The status changes to
     approved when number of approvals for the spending = | S | - 1. A user cannot
     approve their own spending. 
-1. Spending object has a certain amount (required), and bill report (required)
+1. Spending object has a certain amount (required), and bill report (note + attachment required)
     associated to it. 
 1. The author of a spending i.e. the expender can edit the spending. Once an
     edit is created, approval status associated to all users falls to `UNAPPROVED`
